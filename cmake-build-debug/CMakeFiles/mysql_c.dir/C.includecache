@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/linux_c/mysql/mysql_c.c
+stdio.h
+-
+mysql/mysql.h
+-
+unistd.h
+-
+stdlib.h
+-
+

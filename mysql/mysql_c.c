@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 int main() {
-    MYSQL * conn;
+    MYSQL *conn;
     conn = mysql_init(NULL);
     if (!mysql_real_connect(conn,"localhost","root","Xl123456","word",0,NULL,0))
     {
