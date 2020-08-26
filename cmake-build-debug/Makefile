@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
 # Target rules for targets named echo8_fork_client
 
 # Build rule for target.
@@ -728,13 +741,39 @@ mysql_c/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mysql_c.dir/build.make CMakeFiles/mysql_c.dir/build
 .PHONY : mysql_c/fast
 
+main.o: main.c.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.o
+.PHONY : main.c.o
+
+main.i: main.c.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.s
+.PHONY : main.c.s
+
 mysql/mysql_c.o: mysql/mysql_c.c.o
 
 .PHONY : mysql/mysql_c.o
 
 # target to build an object file
 mysql/mysql_c.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/addr.dir/build.make CMakeFiles/addr.dir/mysql/mysql_c.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mysql_c.dir/build.make CMakeFiles/mysql_c.dir/mysql/mysql_c.c.o
 .PHONY : mysql/mysql_c.c.o
 
@@ -744,7 +783,6 @@ mysql/mysql_c.i: mysql/mysql_c.c.i
 
 # target to preprocess a source file
 mysql/mysql_c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/addr.dir/build.make CMakeFiles/addr.dir/mysql/mysql_c.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mysql_c.dir/build.make CMakeFiles/mysql_c.dir/mysql/mysql_c.c.i
 .PHONY : mysql/mysql_c.c.i
 
@@ -754,7 +792,6 @@ mysql/mysql_c.s: mysql/mysql_c.c.s
 
 # target to generate assembly for a file
 mysql/mysql_c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/addr.dir/build.make CMakeFiles/addr.dir/mysql/mysql_c.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mysql_c.dir/build.make CMakeFiles/mysql_c.dir/mysql/mysql_c.c.s
 .PHONY : mysql/mysql_c.c.s
 
@@ -2021,12 +2058,16 @@ help:
 	@echo "... echo_udp_server"
 	@echo "... gethostbyname"
 	@echo "... gethostbyname2"
+	@echo "... main"
 	@echo "... mysql_c"
 	@echo "... p2p_client"
 	@echo "... p2p_server"
 	@echo "... select_client"
 	@echo "... select_server"
 	@echo "... ulimit_nofile"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... mysql/mysql_c.o"
 	@echo "... mysql/mysql_c.i"
 	@echo "... mysql/mysql_c.s"

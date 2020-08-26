@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/addr.dir/mysql/mysql_c.c.o"
   "CMakeFiles/addr.dir/tcp/addr/addr.c.o"
   "addr"
   "addr.pdb"

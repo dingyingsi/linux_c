@@ -37,6 +37,48 @@
 					<DistClean command="/bin/gmake -j6 -f &quot;/root/linux_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="main">
+				<Option output="/root/linux_c/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/linux_c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/bin/gmake -j6 -f &quot;/root/linux_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/bin/gmake -j6 -f &quot;/root/linux_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/gmake -j6 -f &quot;/root/linux_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/gmake -j6 -f &quot;/root/linux_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/root/linux_c/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/linux_c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/bin/gmake -j6 -f &quot;/root/linux_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/bin/gmake -j6 -f &quot;/root/linux_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/gmake -j6 -f &quot;/root/linux_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/gmake -j6 -f &quot;/root/linux_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="echo8_fork_client">
 				<Option output="/root/linux_c/cmake-build-debug/echo8_fork_client" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/root/linux_c/cmake-build-debug"/>
@@ -1970,8 +2012,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/root/linux_c/main.c">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="/root/linux_c/mysql/mysql_c.c">
-			<Option target="addr"/>
 			<Option target="mysql_c"/>
 		</Unit>
 		<Unit filename="/root/linux_c/tcp/addr/addr.c">

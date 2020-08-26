@@ -7,7 +7,7 @@ link_directories(/usr/lib64/mysql)
 link_libraries(mysqlclient)
 
 add_executable(biglittle tcp/biglittle/biglitter.c)
-add_executable(addr tcp/addr/addr.c mysql/mysql_c.c)
+add_executable(addr tcp/addr/addr.c)
 add_executable(echo_server tcp/echo/echo_server.c)
 add_executable(echo_client tcp/echo/echo_client.c)
 add_executable(echo_fork_server tcp/echo_fork/echo_fork_server.c)
@@ -54,3 +54,4 @@ add_executable(select_server tcp/select/server.c)
 add_executable(select_client tcp/select/client.c)
 
 add_executable(mysql_c mysql/mysql_c.c)
+add_executable(main main.c)
