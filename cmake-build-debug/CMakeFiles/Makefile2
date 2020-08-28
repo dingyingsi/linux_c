@@ -111,6 +111,7 @@ all: CMakeFiles/echo2_fork_client.dir/all
 all: CMakeFiles/echo12_fork_client.dir/all
 all: CMakeFiles/echo13_fork_server.dir/all
 all: CMakeFiles/ulimit_nofile.dir/all
+all: CMakeFiles/calloc_malloc_realloc.dir/all
 all: CMakeFiles/gethostbyname2.dir/all
 all: CMakeFiles/echo14_fork_client.dir/all
 all: CMakeFiles/select_client.dir/all
@@ -167,6 +168,7 @@ clean: CMakeFiles/echo2_fork_client.dir/clean
 clean: CMakeFiles/echo12_fork_client.dir/clean
 clean: CMakeFiles/echo13_fork_server.dir/clean
 clean: CMakeFiles/ulimit_nofile.dir/clean
+clean: CMakeFiles/calloc_malloc_realloc.dir/clean
 clean: CMakeFiles/gethostbyname2.dir/clean
 clean: CMakeFiles/echo14_fork_client.dir/clean
 clean: CMakeFiles/select_client.dir/clean
@@ -186,7 +188,7 @@ clean: CMakeFiles/mysql_c.dir/clean
 CMakeFiles/main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=81,82 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=83,84 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -213,7 +215,7 @@ CMakeFiles/main.dir/clean:
 CMakeFiles/echo8_fork_client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo8_fork_client.dir/build.make CMakeFiles/echo8_fork_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo8_fork_client.dir/build.make CMakeFiles/echo8_fork_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target echo8_fork_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target echo8_fork_client"
 .PHONY : CMakeFiles/echo8_fork_client.dir/all
 
 # Build rule for subdir invocation for target.
@@ -240,7 +242,7 @@ CMakeFiles/echo8_fork_client.dir/clean:
 CMakeFiles/select_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/select_server.dir/build.make CMakeFiles/select_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/select_server.dir/build.make CMakeFiles/select_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=91,92 "Built target select_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=93,94 "Built target select_server"
 .PHONY : CMakeFiles/select_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -267,7 +269,7 @@ CMakeFiles/select_server.dir/clean:
 CMakeFiles/echo8_fork_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo8_fork_server.dir/build.make CMakeFiles/echo8_fork_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo8_fork_server.dir/build.make CMakeFiles/echo8_fork_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target echo8_fork_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target echo8_fork_server"
 .PHONY : CMakeFiles/echo8_fork_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -294,7 +296,7 @@ CMakeFiles/echo8_fork_server.dir/clean:
 CMakeFiles/echo14_fork_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo14_fork_server.dir/build.make CMakeFiles/echo14_fork_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo14_fork_server.dir/build.make CMakeFiles/echo14_fork_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target echo14_fork_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target echo14_fork_server"
 .PHONY : CMakeFiles/echo14_fork_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -321,7 +323,7 @@ CMakeFiles/echo14_fork_server.dir/clean:
 CMakeFiles/echo7_fork_client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo7_fork_client.dir/build.make CMakeFiles/echo7_fork_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo7_fork_client.dir/build.make CMakeFiles/echo7_fork_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target echo7_fork_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target echo7_fork_client"
 .PHONY : CMakeFiles/echo7_fork_client.dir/all
 
 # Build rule for subdir invocation for target.
@@ -348,7 +350,7 @@ CMakeFiles/echo7_fork_client.dir/clean:
 CMakeFiles/echo6_fork_client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo6_fork_client.dir/build.make CMakeFiles/echo6_fork_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo6_fork_client.dir/build.make CMakeFiles/echo6_fork_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target echo6_fork_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target echo6_fork_client"
 .PHONY : CMakeFiles/echo6_fork_client.dir/all
 
 # Build rule for subdir invocation for target.
@@ -375,7 +377,7 @@ CMakeFiles/echo6_fork_client.dir/clean:
 CMakeFiles/echo13_fork_client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo13_fork_client.dir/build.make CMakeFiles/echo13_fork_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo13_fork_client.dir/build.make CMakeFiles/echo13_fork_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target echo13_fork_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target echo13_fork_client"
 .PHONY : CMakeFiles/echo13_fork_client.dir/all
 
 # Build rule for subdir invocation for target.
@@ -402,7 +404,7 @@ CMakeFiles/echo13_fork_client.dir/clean:
 CMakeFiles/echo7_fork_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo7_fork_server.dir/build.make CMakeFiles/echo7_fork_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo7_fork_server.dir/build.make CMakeFiles/echo7_fork_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target echo7_fork_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target echo7_fork_server"
 .PHONY : CMakeFiles/echo7_fork_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -429,7 +431,7 @@ CMakeFiles/echo7_fork_server.dir/clean:
 CMakeFiles/echo6_fork_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo6_fork_server.dir/build.make CMakeFiles/echo6_fork_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo6_fork_server.dir/build.make CMakeFiles/echo6_fork_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target echo6_fork_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target echo6_fork_server"
 .PHONY : CMakeFiles/echo6_fork_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -456,7 +458,7 @@ CMakeFiles/echo6_fork_server.dir/clean:
 CMakeFiles/echo3_fork_client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo3_fork_client.dir/build.make CMakeFiles/echo3_fork_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo3_fork_client.dir/build.make CMakeFiles/echo3_fork_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target echo3_fork_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target echo3_fork_client"
 .PHONY : CMakeFiles/echo3_fork_client.dir/all
 
 # Build rule for subdir invocation for target.
@@ -483,7 +485,7 @@ CMakeFiles/echo3_fork_client.dir/clean:
 CMakeFiles/p2p_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p2p_server.dir/build.make CMakeFiles/p2p_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p2p_server.dir/build.make CMakeFiles/p2p_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=87,88 "Built target p2p_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=89,90 "Built target p2p_server"
 .PHONY : CMakeFiles/p2p_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -510,7 +512,7 @@ CMakeFiles/p2p_server.dir/clean:
 CMakeFiles/echo_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=71,72 "Built target echo_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=73,74 "Built target echo_server"
 .PHONY : CMakeFiles/echo_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -537,7 +539,7 @@ CMakeFiles/echo_server.dir/clean:
 CMakeFiles/echo5_fork_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo5_fork_server.dir/build.make CMakeFiles/echo5_fork_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo5_fork_server.dir/build.make CMakeFiles/echo5_fork_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target echo5_fork_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target echo5_fork_server"
 .PHONY : CMakeFiles/echo5_fork_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -591,7 +593,7 @@ CMakeFiles/biglittle.dir/clean:
 CMakeFiles/echo4_fork_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo4_fork_server.dir/build.make CMakeFiles/echo4_fork_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo4_fork_server.dir/build.make CMakeFiles/echo4_fork_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target echo4_fork_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target echo4_fork_server"
 .PHONY : CMakeFiles/echo4_fork_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -618,7 +620,7 @@ CMakeFiles/echo4_fork_server.dir/clean:
 CMakeFiles/echo3_fork_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo3_fork_server.dir/build.make CMakeFiles/echo3_fork_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo3_fork_server.dir/build.make CMakeFiles/echo3_fork_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target echo3_fork_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target echo3_fork_server"
 .PHONY : CMakeFiles/echo3_fork_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -645,7 +647,7 @@ CMakeFiles/echo3_fork_server.dir/clean:
 CMakeFiles/echo_fork_client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_fork_client.dir/build.make CMakeFiles/echo_fork_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_fork_client.dir/build.make CMakeFiles/echo_fork_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target echo_fork_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=69,70 "Built target echo_fork_client"
 .PHONY : CMakeFiles/echo_fork_client.dir/all
 
 # Build rule for subdir invocation for target.
@@ -672,7 +674,7 @@ CMakeFiles/echo_fork_client.dir/clean:
 CMakeFiles/echo_fork_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_fork_server.dir/build.make CMakeFiles/echo_fork_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_fork_server.dir/build.make CMakeFiles/echo_fork_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=69,70 "Built target echo_fork_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=71,72 "Built target echo_fork_server"
 .PHONY : CMakeFiles/echo_fork_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -699,7 +701,7 @@ CMakeFiles/echo_fork_server.dir/clean:
 CMakeFiles/echo11_fork_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo11_fork_server.dir/build.make CMakeFiles/echo11_fork_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo11_fork_server.dir/build.make CMakeFiles/echo11_fork_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target echo11_fork_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target echo11_fork_server"
 .PHONY : CMakeFiles/echo11_fork_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -726,7 +728,7 @@ CMakeFiles/echo11_fork_server.dir/clean:
 CMakeFiles/echo4_fork_client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo4_fork_client.dir/build.make CMakeFiles/echo4_fork_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo4_fork_client.dir/build.make CMakeFiles/echo4_fork_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target echo4_fork_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target echo4_fork_client"
 .PHONY : CMakeFiles/echo4_fork_client.dir/all
 
 # Build rule for subdir invocation for target.
@@ -753,7 +755,7 @@ CMakeFiles/echo4_fork_client.dir/clean:
 CMakeFiles/echo5_fork_client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo5_fork_client.dir/build.make CMakeFiles/echo5_fork_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo5_fork_client.dir/build.make CMakeFiles/echo5_fork_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target echo5_fork_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target echo5_fork_client"
 .PHONY : CMakeFiles/echo5_fork_client.dir/all
 
 # Build rule for subdir invocation for target.
@@ -807,7 +809,7 @@ CMakeFiles/addr.dir/clean:
 CMakeFiles/p2p_client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p2p_client.dir/build.make CMakeFiles/p2p_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p2p_client.dir/build.make CMakeFiles/p2p_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=85,86 "Built target p2p_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=87,88 "Built target p2p_client"
 .PHONY : CMakeFiles/p2p_client.dir/all
 
 # Build rule for subdir invocation for target.
@@ -834,7 +836,7 @@ CMakeFiles/p2p_client.dir/clean:
 CMakeFiles/echo2_fork_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo2_fork_server.dir/build.make CMakeFiles/echo2_fork_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo2_fork_server.dir/build.make CMakeFiles/echo2_fork_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target echo2_fork_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target echo2_fork_server"
 .PHONY : CMakeFiles/echo2_fork_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -861,7 +863,7 @@ CMakeFiles/echo2_fork_server.dir/clean:
 CMakeFiles/echo_udp_client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_udp_client.dir/build.make CMakeFiles/echo_udp_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_udp_client.dir/build.make CMakeFiles/echo_udp_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=73,74 "Built target echo_udp_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=75,76 "Built target echo_udp_client"
 .PHONY : CMakeFiles/echo_udp_client.dir/all
 
 # Build rule for subdir invocation for target.
@@ -888,7 +890,7 @@ CMakeFiles/echo_udp_client.dir/clean:
 CMakeFiles/echo9_fork_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo9_fork_server.dir/build.make CMakeFiles/echo9_fork_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo9_fork_server.dir/build.make CMakeFiles/echo9_fork_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target echo9_fork_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target echo9_fork_server"
 .PHONY : CMakeFiles/echo9_fork_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -915,7 +917,7 @@ CMakeFiles/echo9_fork_server.dir/clean:
 CMakeFiles/echo15_select_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo15_select_server.dir/build.make CMakeFiles/echo15_select_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo15_select_server.dir/build.make CMakeFiles/echo15_select_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target echo15_select_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target echo15_select_server"
 .PHONY : CMakeFiles/echo15_select_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -942,7 +944,7 @@ CMakeFiles/echo15_select_server.dir/clean:
 CMakeFiles/echo9_fork_client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo9_fork_client.dir/build.make CMakeFiles/echo9_fork_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo9_fork_client.dir/build.make CMakeFiles/echo9_fork_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target echo9_fork_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target echo9_fork_client"
 .PHONY : CMakeFiles/echo9_fork_client.dir/all
 
 # Build rule for subdir invocation for target.
@@ -969,7 +971,7 @@ CMakeFiles/echo9_fork_client.dir/clean:
 CMakeFiles/gethostbyname.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gethostbyname.dir/build.make CMakeFiles/gethostbyname.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gethostbyname.dir/build.make CMakeFiles/gethostbyname.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=77,78 "Built target gethostbyname"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=79,80 "Built target gethostbyname"
 .PHONY : CMakeFiles/gethostbyname.dir/all
 
 # Build rule for subdir invocation for target.
@@ -996,7 +998,7 @@ CMakeFiles/gethostbyname.dir/clean:
 CMakeFiles/echo10_fork_client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo10_fork_client.dir/build.make CMakeFiles/echo10_fork_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo10_fork_client.dir/build.make CMakeFiles/echo10_fork_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target echo10_fork_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target echo10_fork_client"
 .PHONY : CMakeFiles/echo10_fork_client.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1023,7 +1025,7 @@ CMakeFiles/echo10_fork_client.dir/clean:
 CMakeFiles/echo10_fork_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo10_fork_server.dir/build.make CMakeFiles/echo10_fork_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo10_fork_server.dir/build.make CMakeFiles/echo10_fork_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target echo10_fork_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target echo10_fork_server"
 .PHONY : CMakeFiles/echo10_fork_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1050,7 +1052,7 @@ CMakeFiles/echo10_fork_server.dir/clean:
 CMakeFiles/echo_client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_client.dir/build.make CMakeFiles/echo_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_client.dir/build.make CMakeFiles/echo_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target echo_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target echo_client"
 .PHONY : CMakeFiles/echo_client.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1077,7 +1079,7 @@ CMakeFiles/echo_client.dir/clean:
 CMakeFiles/echo11_fork_client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo11_fork_client.dir/build.make CMakeFiles/echo11_fork_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo11_fork_client.dir/build.make CMakeFiles/echo11_fork_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target echo11_fork_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target echo11_fork_client"
 .PHONY : CMakeFiles/echo11_fork_client.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1104,7 +1106,7 @@ CMakeFiles/echo11_fork_client.dir/clean:
 CMakeFiles/echo2_fork_client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo2_fork_client.dir/build.make CMakeFiles/echo2_fork_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo2_fork_client.dir/build.make CMakeFiles/echo2_fork_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target echo2_fork_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target echo2_fork_client"
 .PHONY : CMakeFiles/echo2_fork_client.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1131,7 +1133,7 @@ CMakeFiles/echo2_fork_client.dir/clean:
 CMakeFiles/echo12_fork_client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo12_fork_client.dir/build.make CMakeFiles/echo12_fork_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo12_fork_client.dir/build.make CMakeFiles/echo12_fork_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target echo12_fork_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target echo12_fork_client"
 .PHONY : CMakeFiles/echo12_fork_client.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1158,7 +1160,7 @@ CMakeFiles/echo12_fork_client.dir/clean:
 CMakeFiles/echo13_fork_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo13_fork_server.dir/build.make CMakeFiles/echo13_fork_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo13_fork_server.dir/build.make CMakeFiles/echo13_fork_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target echo13_fork_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target echo13_fork_server"
 .PHONY : CMakeFiles/echo13_fork_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1185,7 +1187,7 @@ CMakeFiles/echo13_fork_server.dir/clean:
 CMakeFiles/ulimit_nofile.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ulimit_nofile.dir/build.make CMakeFiles/ulimit_nofile.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ulimit_nofile.dir/build.make CMakeFiles/ulimit_nofile.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=93,94 "Built target ulimit_nofile"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=95,96 "Built target ulimit_nofile"
 .PHONY : CMakeFiles/ulimit_nofile.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1206,13 +1208,40 @@ CMakeFiles/ulimit_nofile.dir/clean:
 .PHONY : CMakeFiles/ulimit_nofile.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/calloc_malloc_realloc.dir
+
+# All Build rule for target.
+CMakeFiles/calloc_malloc_realloc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calloc_malloc_realloc.dir/build.make CMakeFiles/calloc_malloc_realloc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calloc_malloc_realloc.dir/build.make CMakeFiles/calloc_malloc_realloc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target calloc_malloc_realloc"
+.PHONY : CMakeFiles/calloc_malloc_realloc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/calloc_malloc_realloc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/linux_c/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/calloc_malloc_realloc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/linux_c/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/calloc_malloc_realloc.dir/rule
+
+# Convenience name for target.
+calloc_malloc_realloc: CMakeFiles/calloc_malloc_realloc.dir/rule
+
+.PHONY : calloc_malloc_realloc
+
+# clean rule for target.
+CMakeFiles/calloc_malloc_realloc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calloc_malloc_realloc.dir/build.make CMakeFiles/calloc_malloc_realloc.dir/clean
+.PHONY : CMakeFiles/calloc_malloc_realloc.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/gethostbyname2.dir
 
 # All Build rule for target.
 CMakeFiles/gethostbyname2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gethostbyname2.dir/build.make CMakeFiles/gethostbyname2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gethostbyname2.dir/build.make CMakeFiles/gethostbyname2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=79,80 "Built target gethostbyname2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=81,82 "Built target gethostbyname2"
 .PHONY : CMakeFiles/gethostbyname2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1239,7 +1268,7 @@ CMakeFiles/gethostbyname2.dir/clean:
 CMakeFiles/echo14_fork_client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo14_fork_client.dir/build.make CMakeFiles/echo14_fork_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo14_fork_client.dir/build.make CMakeFiles/echo14_fork_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target echo14_fork_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target echo14_fork_client"
 .PHONY : CMakeFiles/echo14_fork_client.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1266,7 +1295,7 @@ CMakeFiles/echo14_fork_client.dir/clean:
 CMakeFiles/select_client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/select_client.dir/build.make CMakeFiles/select_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/select_client.dir/build.make CMakeFiles/select_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=89,90 "Built target select_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=91,92 "Built target select_client"
 .PHONY : CMakeFiles/select_client.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1293,7 +1322,7 @@ CMakeFiles/select_client.dir/clean:
 CMakeFiles/echo15_select_client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo15_select_client.dir/build.make CMakeFiles/echo15_select_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo15_select_client.dir/build.make CMakeFiles/echo15_select_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target echo15_select_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target echo15_select_client"
 .PHONY : CMakeFiles/echo15_select_client.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1320,7 +1349,7 @@ CMakeFiles/echo15_select_client.dir/clean:
 CMakeFiles/echo16_epoll_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo16_epoll_server.dir/build.make CMakeFiles/echo16_epoll_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo16_epoll_server.dir/build.make CMakeFiles/echo16_epoll_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target echo16_epoll_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target echo16_epoll_server"
 .PHONY : CMakeFiles/echo16_epoll_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1347,7 +1376,7 @@ CMakeFiles/echo16_epoll_server.dir/clean:
 CMakeFiles/echo16_epoll_client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo16_epoll_client.dir/build.make CMakeFiles/echo16_epoll_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo16_epoll_client.dir/build.make CMakeFiles/echo16_epoll_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target echo16_epoll_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target echo16_epoll_client"
 .PHONY : CMakeFiles/echo16_epoll_client.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1374,7 +1403,7 @@ CMakeFiles/echo16_epoll_client.dir/clean:
 CMakeFiles/echo_udp_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_udp_server.dir/build.make CMakeFiles/echo_udp_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_udp_server.dir/build.make CMakeFiles/echo_udp_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=75,76 "Built target echo_udp_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=77,78 "Built target echo_udp_server"
 .PHONY : CMakeFiles/echo_udp_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1401,7 +1430,7 @@ CMakeFiles/echo_udp_server.dir/clean:
 CMakeFiles/echo12_fork_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo12_fork_server.dir/build.make CMakeFiles/echo12_fork_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo12_fork_server.dir/build.make CMakeFiles/echo12_fork_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target echo12_fork_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target echo12_fork_server"
 .PHONY : CMakeFiles/echo12_fork_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1428,7 +1457,7 @@ CMakeFiles/echo12_fork_server.dir/clean:
 CMakeFiles/mysql_c.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mysql_c.dir/build.make CMakeFiles/mysql_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mysql_c.dir/build.make CMakeFiles/mysql_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=83,84 "Built target mysql_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/linux_c/cmake-build-debug/CMakeFiles --progress-num=85,86 "Built target mysql_c"
 .PHONY : CMakeFiles/mysql_c.dir/all
 
 # Build rule for subdir invocation for target.

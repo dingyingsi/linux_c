@@ -38,6 +38,7 @@
 /root/linux_c/cmake-build-debug/CMakeFiles/echo12_fork_client.dir
 /root/linux_c/cmake-build-debug/CMakeFiles/echo13_fork_server.dir
 /root/linux_c/cmake-build-debug/CMakeFiles/ulimit_nofile.dir
+/root/linux_c/cmake-build-debug/CMakeFiles/calloc_malloc_realloc.dir
 /root/linux_c/cmake-build-debug/CMakeFiles/gethostbyname2.dir
 /root/linux_c/cmake-build-debug/CMakeFiles/echo14_fork_client.dir
 /root/linux_c/cmake-build-debug/CMakeFiles/select_client.dir

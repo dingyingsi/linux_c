@@ -55,3 +55,4 @@ add_executable(select_client tcp/select/client.c)
 
 add_executable(mysql_c mysql/mysql_c.c)
 add_executable(main main.c)
+add_executable(calloc_malloc_realloc c/calloc_malloc_realloc/calloc_malloc_realloc.c)

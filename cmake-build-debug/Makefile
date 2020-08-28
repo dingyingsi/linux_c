@@ -625,6 +625,19 @@ ulimit_nofile/fast:
 .PHONY : ulimit_nofile/fast
 
 #=============================================================================
+# Target rules for targets named calloc_malloc_realloc
+
+# Build rule for target.
+calloc_malloc_realloc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 calloc_malloc_realloc
+.PHONY : calloc_malloc_realloc
+
+# fast build rule for target.
+calloc_malloc_realloc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calloc_malloc_realloc.dir/build.make CMakeFiles/calloc_malloc_realloc.dir/build
+.PHONY : calloc_malloc_realloc/fast
+
+#=============================================================================
 # Target rules for targets named gethostbyname2
 
 # Build rule for target.
@@ -740,6 +753,33 @@ mysql_c: cmake_check_build_system
 mysql_c/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mysql_c.dir/build.make CMakeFiles/mysql_c.dir/build
 .PHONY : mysql_c/fast
+
+c/calloc_malloc_realloc/calloc_malloc_realloc.o: c/calloc_malloc_realloc/calloc_malloc_realloc.c.o
+
+.PHONY : c/calloc_malloc_realloc/calloc_malloc_realloc.o
+
+# target to build an object file
+c/calloc_malloc_realloc/calloc_malloc_realloc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calloc_malloc_realloc.dir/build.make CMakeFiles/calloc_malloc_realloc.dir/c/calloc_malloc_realloc/calloc_malloc_realloc.c.o
+.PHONY : c/calloc_malloc_realloc/calloc_malloc_realloc.c.o
+
+c/calloc_malloc_realloc/calloc_malloc_realloc.i: c/calloc_malloc_realloc/calloc_malloc_realloc.c.i
+
+.PHONY : c/calloc_malloc_realloc/calloc_malloc_realloc.i
+
+# target to preprocess a source file
+c/calloc_malloc_realloc/calloc_malloc_realloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calloc_malloc_realloc.dir/build.make CMakeFiles/calloc_malloc_realloc.dir/c/calloc_malloc_realloc/calloc_malloc_realloc.c.i
+.PHONY : c/calloc_malloc_realloc/calloc_malloc_realloc.c.i
+
+c/calloc_malloc_realloc/calloc_malloc_realloc.s: c/calloc_malloc_realloc/calloc_malloc_realloc.c.s
+
+.PHONY : c/calloc_malloc_realloc/calloc_malloc_realloc.s
+
+# target to generate assembly for a file
+c/calloc_malloc_realloc/calloc_malloc_realloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calloc_malloc_realloc.dir/build.make CMakeFiles/calloc_malloc_realloc.dir/c/calloc_malloc_realloc/calloc_malloc_realloc.c.s
+.PHONY : c/calloc_malloc_realloc/calloc_malloc_realloc.c.s
 
 main.o: main.c.o
 
@@ -2020,6 +2060,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... addr"
 	@echo "... biglittle"
+	@echo "... calloc_malloc_realloc"
 	@echo "... echo10_fork_client"
 	@echo "... echo10_fork_server"
 	@echo "... echo11_fork_client"
@@ -2065,6 +2106,9 @@ help:
 	@echo "... select_client"
 	@echo "... select_server"
 	@echo "... ulimit_nofile"
+	@echo "... c/calloc_malloc_realloc/calloc_malloc_realloc.o"
+	@echo "... c/calloc_malloc_realloc/calloc_malloc_realloc.i"
+	@echo "... c/calloc_malloc_realloc/calloc_malloc_realloc.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

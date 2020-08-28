@@ -1633,6 +1633,48 @@
 					<DistClean command="/bin/gmake -j6 -f &quot;/root/linux_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="calloc_malloc_realloc">
+				<Option output="/root/linux_c/cmake-build-debug/calloc_malloc_realloc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/linux_c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/bin/gmake -j6 -f &quot;/root/linux_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 calloc_malloc_realloc"/>
+					<CompileFile command="/bin/gmake -j6 -f &quot;/root/linux_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/gmake -j6 -f &quot;/root/linux_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/gmake -j6 -f &quot;/root/linux_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="calloc_malloc_realloc/fast">
+				<Option output="/root/linux_c/cmake-build-debug/calloc_malloc_realloc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/linux_c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/bin/gmake -j6 -f &quot;/root/linux_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 calloc_malloc_realloc/fast"/>
+					<CompileFile command="/bin/gmake -j6 -f &quot;/root/linux_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/gmake -j6 -f &quot;/root/linux_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/gmake -j6 -f &quot;/root/linux_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="gethostbyname2">
 				<Option output="/root/linux_c/cmake-build-debug/gethostbyname2" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/root/linux_c/cmake-build-debug"/>
@@ -2012,6 +2054,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/root/linux_c/c/calloc_malloc_realloc/calloc_malloc_realloc.c">
+			<Option target="calloc_malloc_realloc"/>
+		</Unit>
 		<Unit filename="/root/linux_c/main.c">
 			<Option target="main"/>
 		</Unit>

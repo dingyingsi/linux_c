@@ -86,6 +86,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/echo12_fork_client.dir/DependInfo.cmake"
   "CMakeFiles/echo13_fork_server.dir/DependInfo.cmake"
   "CMakeFiles/ulimit_nofile.dir/DependInfo.cmake"
+  "CMakeFiles/calloc_malloc_realloc.dir/DependInfo.cmake"
   "CMakeFiles/gethostbyname2.dir/DependInfo.cmake"
   "CMakeFiles/echo14_fork_client.dir/DependInfo.cmake"
   "CMakeFiles/select_client.dir/DependInfo.cmake"
