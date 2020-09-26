@@ -7,13 +7,13 @@
 int main() {
     MYSQL *conn;
     conn = mysql_init(NULL);
-    if (!mysql_real_connect(conn,"localhost","root","Xl123456","word",0,NULL,0))
+    if (!mysql_real_connect(conn,"192.168.31.132","root","Dingyingsi1988!","e_coupon",0,NULL,0))
     {
-        printf("Can not connect word! \n");
+        printf("Can not connect e_coupon! \n");
     } else{
         printf("connect success! \n");
     }
-    if (mysql_query(conn,"select * from word"))
+    if (mysql_query(conn,"select * from e_coupon"))
     {
         printf("query db_books faild! \n");
     } else{

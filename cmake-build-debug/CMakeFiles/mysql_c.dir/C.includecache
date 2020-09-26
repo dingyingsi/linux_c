@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/root/linux_c/mysql/mysql_c.c
+/home/dingyingsi/linux_c/mysql/mysql_c.c
 stdio.h
 -
 mysql/mysql.h
