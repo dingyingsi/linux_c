@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/mysql_c.dir/mysql/mysql_c.c.o  -o mysql_c   -L/usr/lib64/mysql  -Wl,-rpath,/usr/lib64/mysql -lmysqlclient 
+/bin/cc -g   CMakeFiles/mysql_c.dir/mysql/mysql_c.c.o  -o mysql_c   -L/usr/lib64/mysql  -Wl,-rpath,/usr/lib64/mysql -lmysqlclient 

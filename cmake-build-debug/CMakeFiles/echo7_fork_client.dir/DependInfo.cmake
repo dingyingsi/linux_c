@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/dingyingsi/linux_c/tcp/echo7_fork/echo7_fork_client.c" "/home/dingyingsi/linux_c/cmake-build-debug/CMakeFiles/echo7_fork_client.dir/tcp/echo7_fork/echo7_fork_client.c.o"
+  "/root/linux_c/tcp/echo7_fork/echo7_fork_client.c" "/root/linux_c/cmake-build-debug/CMakeFiles/echo7_fork_client.dir/tcp/echo7_fork/echo7_fork_client.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
