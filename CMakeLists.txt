@@ -3,10 +3,6 @@ project(linux_c C CXX)
 
 set(CMAKE_C_STANDARD 11)
 
-link_libraries(mysqlclient)
-include_directories("/usr/local/opt/mysql-client/include/mysql")
-link_directories("/usr/local/opt/mysql-client/lib")
-
 add_executable(biglittle tcp/biglittle/biglitter.c)
 add_executable(addr tcp/addr/addr.c)
 add_executable(echo_server tcp/echo/echo_server.c)
@@ -54,6 +50,4 @@ add_executable(echo_udp_client tcp/echo_udp/echo_udp_client.c)
 add_executable(select_server tcp/select/server.c)
 add_executable(select_client tcp/select/client.c)
 
-add_executable(mysql_c mysql/mysql_c.c)
 add_executable(main main.c)
-add_executable(calloc_malloc_realloc c/calloc_malloc_realloc/calloc_malloc_realloc.c)

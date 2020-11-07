@@ -131,19 +131,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
-
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
-
-# fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
-
-#=============================================================================
 # Target rules for targets named echo8_fork_client
 
 # Build rule for target.
@@ -443,6 +430,19 @@ p2p_client/fast:
 .PHONY : p2p_client/fast
 
 #=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
 # Target rules for targets named echo2_fork_server
 
 # Build rule for target.
@@ -506,6 +506,19 @@ echo9_fork_client: cmake_check_build_system
 echo9_fork_client/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo9_fork_client.dir/build.make CMakeFiles/echo9_fork_client.dir/build
 .PHONY : echo9_fork_client/fast
+
+#=============================================================================
+# Target rules for targets named echo12_fork_server
+
+# Build rule for target.
+echo12_fork_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo12_fork_server
+.PHONY : echo12_fork_server
+
+# fast build rule for target.
+echo12_fork_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo12_fork_server.dir/build.make CMakeFiles/echo12_fork_server.dir/build
+.PHONY : echo12_fork_server/fast
 
 #=============================================================================
 # Target rules for targets named gethostbyname
@@ -625,19 +638,6 @@ ulimit_nofile/fast:
 .PHONY : ulimit_nofile/fast
 
 #=============================================================================
-# Target rules for targets named calloc_malloc_realloc
-
-# Build rule for target.
-calloc_malloc_realloc: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 calloc_malloc_realloc
-.PHONY : calloc_malloc_realloc
-
-# fast build rule for target.
-calloc_malloc_realloc/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calloc_malloc_realloc.dir/build.make CMakeFiles/calloc_malloc_realloc.dir/build
-.PHONY : calloc_malloc_realloc/fast
-
-#=============================================================================
 # Target rules for targets named gethostbyname2
 
 # Build rule for target.
@@ -728,59 +728,6 @@ echo_udp_server/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_udp_server.dir/build.make CMakeFiles/echo_udp_server.dir/build
 .PHONY : echo_udp_server/fast
 
-#=============================================================================
-# Target rules for targets named echo12_fork_server
-
-# Build rule for target.
-echo12_fork_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo12_fork_server
-.PHONY : echo12_fork_server
-
-# fast build rule for target.
-echo12_fork_server/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo12_fork_server.dir/build.make CMakeFiles/echo12_fork_server.dir/build
-.PHONY : echo12_fork_server/fast
-
-#=============================================================================
-# Target rules for targets named mysql_c
-
-# Build rule for target.
-mysql_c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mysql_c
-.PHONY : mysql_c
-
-# fast build rule for target.
-mysql_c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mysql_c.dir/build.make CMakeFiles/mysql_c.dir/build
-.PHONY : mysql_c/fast
-
-c/calloc_malloc_realloc/calloc_malloc_realloc.o: c/calloc_malloc_realloc/calloc_malloc_realloc.c.o
-
-.PHONY : c/calloc_malloc_realloc/calloc_malloc_realloc.o
-
-# target to build an object file
-c/calloc_malloc_realloc/calloc_malloc_realloc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calloc_malloc_realloc.dir/build.make CMakeFiles/calloc_malloc_realloc.dir/c/calloc_malloc_realloc/calloc_malloc_realloc.c.o
-.PHONY : c/calloc_malloc_realloc/calloc_malloc_realloc.c.o
-
-c/calloc_malloc_realloc/calloc_malloc_realloc.i: c/calloc_malloc_realloc/calloc_malloc_realloc.c.i
-
-.PHONY : c/calloc_malloc_realloc/calloc_malloc_realloc.i
-
-# target to preprocess a source file
-c/calloc_malloc_realloc/calloc_malloc_realloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calloc_malloc_realloc.dir/build.make CMakeFiles/calloc_malloc_realloc.dir/c/calloc_malloc_realloc/calloc_malloc_realloc.c.i
-.PHONY : c/calloc_malloc_realloc/calloc_malloc_realloc.c.i
-
-c/calloc_malloc_realloc/calloc_malloc_realloc.s: c/calloc_malloc_realloc/calloc_malloc_realloc.c.s
-
-.PHONY : c/calloc_malloc_realloc/calloc_malloc_realloc.s
-
-# target to generate assembly for a file
-c/calloc_malloc_realloc/calloc_malloc_realloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calloc_malloc_realloc.dir/build.make CMakeFiles/calloc_malloc_realloc.dir/c/calloc_malloc_realloc/calloc_malloc_realloc.c.s
-.PHONY : c/calloc_malloc_realloc/calloc_malloc_realloc.c.s
-
 main.o: main.c.o
 
 .PHONY : main.o
@@ -807,33 +754,6 @@ main.s: main.c.s
 main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.s
 .PHONY : main.c.s
-
-mysql/mysql_c.o: mysql/mysql_c.c.o
-
-.PHONY : mysql/mysql_c.o
-
-# target to build an object file
-mysql/mysql_c.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mysql_c.dir/build.make CMakeFiles/mysql_c.dir/mysql/mysql_c.c.o
-.PHONY : mysql/mysql_c.c.o
-
-mysql/mysql_c.i: mysql/mysql_c.c.i
-
-.PHONY : mysql/mysql_c.i
-
-# target to preprocess a source file
-mysql/mysql_c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mysql_c.dir/build.make CMakeFiles/mysql_c.dir/mysql/mysql_c.c.i
-.PHONY : mysql/mysql_c.c.i
-
-mysql/mysql_c.s: mysql/mysql_c.c.s
-
-.PHONY : mysql/mysql_c.s
-
-# target to generate assembly for a file
-mysql/mysql_c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mysql_c.dir/build.make CMakeFiles/mysql_c.dir/mysql/mysql_c.c.s
-.PHONY : mysql/mysql_c.c.s
 
 tcp/addr/addr.o: tcp/addr/addr.c.o
 
@@ -2060,7 +1980,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... addr"
 	@echo "... biglittle"
-	@echo "... calloc_malloc_realloc"
 	@echo "... echo10_fork_client"
 	@echo "... echo10_fork_server"
 	@echo "... echo11_fork_client"
@@ -2100,21 +2019,14 @@ help:
 	@echo "... gethostbyname"
 	@echo "... gethostbyname2"
 	@echo "... main"
-	@echo "... mysql_c"
 	@echo "... p2p_client"
 	@echo "... p2p_server"
 	@echo "... select_client"
 	@echo "... select_server"
 	@echo "... ulimit_nofile"
-	@echo "... c/calloc_malloc_realloc/calloc_malloc_realloc.o"
-	@echo "... c/calloc_malloc_realloc/calloc_malloc_realloc.i"
-	@echo "... c/calloc_malloc_realloc/calloc_malloc_realloc.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... mysql/mysql_c.o"
-	@echo "... mysql/mysql_c.i"
-	@echo "... mysql/mysql_c.s"
 	@echo "... tcp/addr/addr.o"
 	@echo "... tcp/addr/addr.i"
 	@echo "... tcp/addr/addr.s"
