@@ -3,8 +3,9 @@ project(linux_c C CXX)
 
 set(CMAKE_C_STANDARD 11)
 
-link_directories(/usr/lib64/mysql)
 link_libraries(mysqlclient)
+include_directories("/usr/local/opt/mysql-client/include/mysql")
+link_directories("/usr/local/opt/mysql-client/lib")
 
 add_executable(biglittle tcp/biglittle/biglitter.c)
 add_executable(addr tcp/addr/addr.c)
